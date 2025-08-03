@@ -25,16 +25,16 @@ class MainActivity : AppCompatActivity() {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
         }
-        // Category
+
         val cbProgramming = findViewById<CheckBox>(R.id.cbProgramming)
         val cbMisc = findViewById<CheckBox>(R.id.cbMisc)
         val cbDark = findViewById<CheckBox>(R.id.cbDark)
 
-        // Type
+
         val cbSingle = findViewById<CheckBox>(R.id.cbSingle)
         val cbTwoPart = findViewById<CheckBox>(R.id.cbTwoPart)
 
-        // Filter
+
         val cbNsfw = findViewById<CheckBox>(R.id.cbNsfw)
         val cbReligious = findViewById<CheckBox>(R.id.cbReligious)
 
@@ -99,7 +99,7 @@ class MainActivity : AppCompatActivity() {
                         else -> "No joke found."
                     }
                 } else {
-                    tvResult.text = "No joke found, sorry."
+                    tvResult.text = "No joke found, sorry buddy."
                 }
             }
 

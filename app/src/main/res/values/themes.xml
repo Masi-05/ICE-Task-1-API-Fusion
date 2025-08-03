@@ -1,8 +1,11 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
     <style name="Base.Theme.Jokers" parent="Theme.Material3.DayNight.NoActionBar">
-        <!-- Customize your light theme here. -->
-        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="colorPrimary">#2196F3</item> <!-- Light Blue -->
+        <item name="colorPrimaryVariant">#1976D2</item>
+        <item name="colorOnPrimary">#FFFFFF</item>
+        <item name="colorSecondary">#03A9F4</item>
+        <item name="android:windowBackground">#E3F2FD</item> <!-- Light Blue background -->
     </style>
 
     <style name="Theme.Jokers" parent="Base.Theme.Jokers" />

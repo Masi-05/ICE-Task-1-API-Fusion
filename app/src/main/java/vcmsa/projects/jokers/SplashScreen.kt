@@ -21,9 +21,13 @@ class SplashScreen : AppCompatActivity() {
             insets
         }
 
-        findViewById<Button>(R.id.btnStart).setOnClickListener{
-            startActivity(Intent(this, MainActivity::class.java))
+        val btnStart = findViewById<Button>(R.id.btnStart)
+        btnStart.setOnClickListener {
+            val intent = Intent(this@SplashScreen, MainActivity::class.java)
+            startActivity(intent)
             finish()
         }
+
+
     }
 }
